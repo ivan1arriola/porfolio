@@ -1,5 +1,5 @@
 import Title from '../components/Title.jsx';
-import './css/About.css';
+import './css/about.css';
 
 const About = () => {
     return (
