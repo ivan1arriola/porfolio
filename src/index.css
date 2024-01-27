@@ -29,3 +29,10 @@ body {
     width: min(90%, 550px);
     margin: auto;
 }
+
+.title {
+    font-size: 5rem;
+    color: var(--main-text-color);
+    text-align: center;
+  }
+  
