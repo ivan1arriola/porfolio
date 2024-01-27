@@ -6,7 +6,7 @@
 }
 
 body {
-    background:var(--background-color) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghj9bINwCLBHb0eisbsNyPta830j-lSGy4cxwQnPh2D7G5VW6meZHUR8pBe_FeU-IlijZx23mDRFoBk_BkS5cma2urzcwJYMsWepbzT_1KfppJMQLfe_Uio4al0zMDPqxWNOyNByDPCdg/s1600/estrellas.png) repeat top center;
+    background: var(--background-color) url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghj9bINwCLBHb0eisbsNyPta830j-lSGy4cxwQnPh2D7G5VW6meZHUR8pBe_FeU-IlijZx23mDRFoBk_BkS5cma2urzcwJYMsWepbzT_1KfppJMQLfe_Uio4al0zMDPqxWNOyNByDPCdg/s1600/estrellas.png) repeat top center;
     margin: 0;
     padding: 0;
     font-family: var(--text-family);
@@ -19,6 +19,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 50vh;
+    width: min(90%, 550px);
+    margin: auto;
+}
+
+.principal {
+    display: flex;
+    height: 100vh;
     width: min(90%, 550px);
     margin: auto;
 }

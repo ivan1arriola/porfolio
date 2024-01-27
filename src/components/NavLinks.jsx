@@ -1,7 +1,6 @@
 import React from 'react';
 import NavLink from './NavLink';
-import { Link } from 'react-router-dom';
-import '../css/links.css';
+import './css/links.css';
 
 const NavLinks = ({vertical = false}) => {
     const navClass = vertical ? "nav-links nav vertical " : "nav-links nav";
