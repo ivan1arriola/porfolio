@@ -1,8 +1,26 @@
-# React + Vite
+# Portfolio de Iván Arriola
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal construido con React, Vite y React Router.
 
-Currently, two official plugins are available:
+El proyecto nació en 2024 como una maqueta pequeña y fue retomado en 2026 para completar sus secciones, modernizar su identidad visual y mejorar navegación, accesibilidad y responsive sin perder la estética oscura/espacial original.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Secciones
+
+- Inicio
+- Sobre mí
+- Proyectos
+- Contacto
+
+## Desarrollo local
+
+```bash
+npm install
+npm run dev
+```
+
+## Verificación
+
+```bash
+npm run lint
+npm run build
+```
