@@ -1,17 +1,18 @@
-import { useRouteError } from "react-router-dom";
+import { Link, useRouteError } from 'react-router-dom';
 
 export default function ErrorPage() {
   const error = useRouteError();
-  console.error(error);
+  const status = error?.status || '404';
+  const message = error?.statusText || error?.message || 'No pudimos encontrar esta página.';
 
   return (
-    <div id="error-page" className="alert alert-warning" role="alert">
-      <h1>Oops! {error.status} :(</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-      <p>
-        <i>{error.statusText || error.message}</i> -{" "}
-        <i>{error.error.message}</i>
-      </p>
-    </div>
+    <main className="error-page">
+      <p className="eyebrow">Error {status}</p>
+      <h1>Esta coordenada no lleva a ningún lado.</h1>
+      <p>{message}</p>
+      <Link className="button button-primary" to="/">
+        Volver al inicio
+      </Link>
+    </main>
   );
 }
